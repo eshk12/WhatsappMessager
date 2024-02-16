@@ -29,10 +29,11 @@ def send_message(contact_name, message):
     print("Pasting message:", message)
     time.sleep(1)
     pyautogui.press("enter")
+    time.sleep(1)
     close_whatsapp()
 
 if __name__ == "__main__":
-    contactsNames = ["person1", "person2", "person3"]
+    contactsNames = ["אישתי", "אישתי", "אישתי", "אישתי","אישתי", "אישתי", "אישתי", "אישתי","אישתי", "אישתי", "אישתי", "אישתי" ,"אישתי", "אישתי", "אישתי", "אישתי"]
     for contactsName in contactsNames:
         open_whatsapp()
         time.sleep(2)  # Adjust as necessary to allow WhatsApp Desktop to open
